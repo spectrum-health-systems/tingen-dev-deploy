@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tingen-DevDeploy", "Tingen-DevDeploy.csproj", "{874EB8D8-E5A3-4354-A657-AC170111381B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tingen-Lieutenant", "..\..\tingen-lieutenant\src\Tingen-Lieutenant.csproj", "{B96C2C9D-01F9-84AF-9C55-ACD80A76D66A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{874EB8D8-E5A3-4354-A657-AC170111381B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{874EB8D8-E5A3-4354-A657-AC170111381B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{874EB8D8-E5A3-4354-A657-AC170111381B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{874EB8D8-E5A3-4354-A657-AC170111381B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B96C2C9D-01F9-84AF-9C55-ACD80A76D66A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B96C2C9D-01F9-84AF-9C55-ACD80A76D66A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B96C2C9D-01F9-84AF-9C55-ACD80A76D66A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B96C2C9D-01F9-84AF-9C55-ACD80A76D66A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7E0A90E-279F-4869-BB50-5C7E0BA550B8}
+	EndGlobalSection
+EndGlobal
