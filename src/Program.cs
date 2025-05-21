@@ -12,24 +12,26 @@
  * ██║  ██║██╔══╝  ╚██╗ ██╔╝██║  ██║██╔══╝  ██╔═══╝ ██║     ██║   ██║  ╚██╔╝
  * ██████╔╝███████╗ ╚████╔╝ ██████╔╝███████╗██║     ███████╗╚██████╔╝   ██║
  * ╚═════╝ ╚══════╝  ╚═══╝  ╚═════╝ ╚══════╝╚═╝     ╚══════╝ ╚═════╝    ╚═╝
- *                                A deployment utility for Tingen projects.
- *                                                                     v2.0
+ *                                 A deployment utility for Tingen projects
+ *                                                                   v2.0.0
  *
  * https://github.com/APrettyCoolProgram/Tingen-DevDeploy
  * Copyright (c) A Pretty Cool Program. All rights reserved.
  * Licensed under the Apache 2.0 license.
  */
 
-// u250520_code
-// u250520_documentation
+// u250521_code
+// u250521_documentation
 
 using TingenLieutenant.Deployer;
 
 namespace TingenDevDeploy
 {
+    /// <summary>The main class for Tingen-DevDeploy.</summary>
     internal class Program
     {
-        public static void Main(string[] args)
+        /// <summary>The main entry point for Tingen-DevDeploy.</summary>
+        public static void Main()
         {
             Console.Clear();
 

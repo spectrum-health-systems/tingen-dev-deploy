@@ -10,9 +10,7 @@
 
 # About Tingen-DevDeploy
 
-Tingen DevDeploy simple command-line utility that deploys the ***development branch*** of the ***Tingen-WebService*** repository.
-
-Tingen DevDeploy was created to make deploying quick iterations of the Tingen Web Services for Spectrum Health Systems, so it won't work for other organizations without modification (which is fine, since I'm the only person developing Tingen anyway).
+Tingen DevDeploy simple command-line utility that makes it easy/fast to deploy testing versions of the Tingen Web Service.
 
 ## Version 2.0
 
@@ -22,9 +20,13 @@ The biggest difference is that you can now specify the location of the Tingen-De
 
 This means:
 
-* You can deploy specific branches from the GitHub repository, or...
+* You can deploy specific branches from the GitHub repository
 * You can deploy from a repository on your local machine
 * You can stage/deploy using mapped drives
+
+## Requirements
+
+Tingen DevDeploy requires the [T]ingen-Lieutenant project](https://github.com/spectrum-health-systems/tingen-lieutenant).
 
 # Installation
 
