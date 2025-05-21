@@ -23,7 +23,7 @@
 // u250521_code
 // u250521_documentation
 
-using TingenLieutenant.Deployer;
+using TingenLieutenant.WebServiceDeployer;
 
 namespace TingenDevDeploy
 {
