@@ -1,41 +1,74 @@
-<!-- u250403 -->
+<!-- u250527 -->
 
 <div align="center">
 
   ![logo](./.github/image/logo/TingenDevDeploy_logo_320x420.png)
 
-  ![BranchWarning](https://img.shields.io/badge/Version-1.4-seagreen?style=for-the-badge)
+  ![BranchWarning](https://img.shields.io/badge/Version-v2.0.0.rc1.250522-seagreen?style=for-the-badge)
 
 </div>
 
-# About Tingen-DevDeploy
+# About Tingen DevDeploy
 
-Tingen DevDeploy simple command-line utility that deploys the ***development branch*** of the ***Tingen-WebService*** repository.
-
-Tingen DevDeploy was created to make deploying quick iterations of the Tingen Web Services for Spectrum Health Systems, so it won't work for other organizations without modification (which is fine, since I'm the only person developing Tingen anyway).
-
-## The Good
-
-- A single, portable file.
-- Logs everything.
-- Gets the job done!
-
-## The Bad
-
-- Not customizable (everything is hardcoded).
-- Is specifically for the ***development branch*** of the ***Tingen-WebService*** repository.
-- Only works in Windows.
-
-## The Ugly
-
-- Source code isn't elegant, and doesn't follow best practices.
+Tingen DevDeploy simple command-line utility that makes it easy/fast to deploy testing versions of the Tingen Web Service.
 
 # Installation
 
 Since Tingen DevDeploy is a single, portable file, all you need to do to "install" it is:
 
-1. Download the [latest release](https://github.com/spectrum-health-systems/Tingen-DevDeploy/releases)
-2. Extract Tingen DevDeploy to a location where it can be executed
+1. Download the [latest release](https://github.com/spectrum-health-systems/tingen-dev-deploy/releases)
+2. Extract TingenDevDeploy to a location where it can be executed
+
+# Configuration
+
+The first time Tingen DevDeploy is executed, it looks for the `devdeploy-config.json file`.
+
+If the `devdeploy-config.json file` doesn't exist, one is created using the default values that will work with any standard installation of the Tingen Web Service.
+
+## Modifying the configuration
+
+The `devdeploy-config.json file` file contains the following configuration settings:
+
+* RepositoryPath  
+  The location of the Tingen Web Service that will be deployed.
+
+* StagingPath  
+  The location where the Tingen Web Service is staged for deployment.
+
+* DeployPath  
+  The location where the Tingen Web Service is deployed.
+
+### RepositoryPath
+
+> Default value: `https://github.com/spectrum-health-systems/Tingen-WebService/archive/refs/heads/development.zip`
+
+This isn't necessarily a "path", since it can be either a directory or a URL.
+
+If the RepositoryPath is a URL:
+* It must point to a ".zip" file<
+* It must formatted correctly
+
+If the RepositoryPath is a directory:
+* It can be a local directory
+* It can be a network share/mapped drive
+
+### StagingPath
+
+> Default value: `C:\Tingen_Data\DevDeploy`
+
+This can be:
+
+* A local directory
+* A network share/mapped drive
+
+### Deploy Path
+
+> Default value: `C:\Tingen\UAT`
+
+This can be:
+
+* A local directory
+* A network share/mapped drive
 
 # Usage
 
@@ -43,14 +76,3 @@ To use Tingen DevDeploy:
 
 1. Open a command line where you extracted Tingen DevDeploy
 2. Type `TingenDevDeploy`
-
-## What Tingen-DevDeploy does
-
-When you execute `TingenDevDeploy.exe`, it:
-
-1. Verifies that a log directory exists
-2. Verifies the Tingen-DevDeploy framework
-3. Downloads the ***development branch*** of the ***Tingen-WebService*** repository
-4. Extracts the downloaded repository data
-5. Removes/recreates the directory where the Tingen Web Service is hosted
-6. Copies the necessary web service files to the web service directory
