@@ -1,4 +1,4 @@
-<!-- u250403 -->
+<!-- u250527 -->
 
 <div align="center">
 
@@ -8,29 +8,9 @@
 
 </div>
 
-# About Tingen-DevDeploy
+# About Tingen DevDeploy
 
 Tingen DevDeploy simple command-line utility that makes it easy/fast to deploy testing versions of the Tingen Web Service.
-
-## Version 2.0
-
-This is **version 2.0** of Tingen DevDeploy, which is different than v1.x.
-
-The biggest difference is that you can now specify:
-
-* Where the Tingen Web Service repository is located
-* Where the Tingen Web Service deployment will be staged
-* Where the Tingen Web Service is deployed
-
-This means:
-
-* You can deploy specific branches from the GitHub repository
-* You can deploy from a repository on your local machine
-* You can stage/deploy using mapped drives
-
-## Requirements
-
-Tingen DevDeploy requires the [Tingen-Lieutenant project](https://github.com/spectrum-health-systems/tingen-lieutenant).
 
 # Installation
 
@@ -47,7 +27,48 @@ If the `devdeploy-config.json file` doesn't exist, one is created using the defa
 
 ## Modifying the configuration
 
-More info soon!
+The `devdeploy-config.json file` file contains the following configuration settings:
+
+* RepositoryPath  
+  The location of the Tingen Web Service that will be deployed.
+
+* StagingPath  
+  The location where the Tingen Web Service is staged for deployment.
+
+* DeployPath  
+  The location where the Tingen Web Service is deployed.
+
+### RepositoryPath
+
+> Default value: `https://github.com/spectrum-health-systems/Tingen-WebService/archive/refs/heads/development.zip`
+
+This isn't necessarily a "path", since it can be either a directory or a URL.
+
+If the RepositoryPath is a URL:
+* It must point to a ".zip" file<
+* It must formatted correctly
+
+If the RepositoryPath is a directory:
+* It can be a local directory
+* It can be a network share/mapped drive
+
+### StagingPath
+
+> Default value: `C:\Tingen_Data\DevDeploy`
+
+This can be:
+
+* A local directory
+* A network share/mapped drive
+
+### Deploy Path
+
+> Default value: `C:\Tingen\UAT`
+
+This can be:
+
+* A local directory
+* A network share/mapped drive
 
 # Usage
 
@@ -55,9 +76,3 @@ To use Tingen DevDeploy:
 
 1. Open a command line where you extracted Tingen DevDeploy
 2. Type `TingenDevDeploy`
-
-## What Tingen-DevDeploy does
-
-When you execute `TingenDevDeploy`, it:
-
-More info soon!
