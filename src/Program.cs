@@ -13,7 +13,7 @@
  * ██████╔╝███████╗ ╚████╔╝ ██████╔╝███████╗██║     ███████╗╚██████╔╝   ██║
  * ╚═════╝ ╚══════╝  ╚═══╝  ╚═════╝ ╚══════╝╚═╝     ╚══════╝ ╚═════╝    ╚═╝
  *                                 A deployment utility for Tingen projects
- *                                                                   v2.0.0
+ *                                                                   v2.1.0
  *
  * https://github.com/spectrum-health-systems/tingen-dev-deploy
  * Copyright (c) A Pretty Cool Program. All rights reserved.
@@ -35,7 +35,7 @@ namespace TingenDevDeploy
         {
             Console.Clear();
 
-            ViaDevDeploy.DeployWebService("./AppData/devdeploy-conf.json");
+            Deploy.DeploymentProcess("./AppData/devdeploy-conf.json", true);
         }
     }
 }
