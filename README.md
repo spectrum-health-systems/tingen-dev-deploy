@@ -14,4 +14,4 @@ Tingen DevDeploy simple command-line utility that makes it easy to deploy the [T
 
 # How to use Tingen DevDeploy
 
-For information on installing, configuring, and running Tingen DevDeploy, please see the [manual](https://spectrum-health-systems.github.io/tingen-documentation/manual/tingen-dev-deploy-manual.md)
+For information on installing, configuring, and running Tingen DevDeploy, please see the [manual](https://spectrum-health-systems.github.io/tingen-documentation/manual/tingen-dev-deploy-manual)
