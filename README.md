@@ -4,8 +4,8 @@
 
   ![logo](./.github/image/logo/TingenDevDeploy_logo_320x420.png)
 
-  ![BranchWarning](https://img.shields.io/badge/Version-v2.1-seagreen?style=for-the-badge)
-
+  ![Version 2.1](https://github.com/spectrum-health-systems/tingen/blob/main/.github/image/version/v2.1.png)
+  
 </div>
 
 # About Tingen DevDeploy
