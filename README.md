@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  ![logo](./.github/image/logo/TingenDevDeploy_logo_320x420.png)
+  ![logo](./.github/image/logo/tngndvdp-320x420.png)
 
   ![Version 2.1](https://github.com/APrettyCoolProgram/aprettycoolprogram/blob/main/profile/pub/verel/v/v2.1.png)
   
