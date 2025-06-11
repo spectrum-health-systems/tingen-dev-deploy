@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  ![logo](./.github/image/logo/tngndvdp-194x254.png.png)
+  ![logo](./.github/image/logo/tngndvdp-194x254.png)
 
   ![Version 2.1](https://github.com/APrettyCoolProgram/aprettycoolprogram/blob/main/profile/pub/verel/v/v2.1.png)
   
