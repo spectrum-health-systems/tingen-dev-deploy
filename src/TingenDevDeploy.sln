@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TingenLieutenant", "..\..\t
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SHFB", "SHFB", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
-Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "shfb-tingen-dev-deploy", "..\..\tingen-documentation\sfhb\shfb-tingen-dev-deploy\shfb-tingen-dev-deploy.shfbproj", "{F73E75EF-A02C-4CF8-A34B-EFB84F3FB414}"
+Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "sfhb-tingen-dev-deploy", "..\..\tingen-documentation\sfhb\shfb-tingen-dev-deploy\sfhb-tingen-dev-deploy.shfbproj", "{F73E75EF-A02C-4CF8-A34B-EFB84F3FB414}"
 EndProject
 Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "shfb-tingen-lieutenant", "..\..\tingen-documentation\sfhb\shfb-tingen-lieutenant\shfb-tingen-lieutenant.shfbproj", "{93625326-562C-48BE-94BB-717E8DACD4E4}"
 EndProject
