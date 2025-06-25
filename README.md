@@ -4,7 +4,9 @@
 
   ![logo](./.github/image/logo/tngndvdp-320x420.png)
 
-  ![Version 2.2](https://github.com/APrettyCoolProgram/aprettycoolprogram/blob/main/profile/pub/verel/v/v2.2.png)
+  ![Release](https://img.shields.io/badge/release-v2.2-teal)&nbsp;&nbsp;
+  ![License](https://img.shields.io/badge/license-apache-blue)
+ 
   
 </div>
 
