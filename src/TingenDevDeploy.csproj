@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+      <Version>2.2.0</Version>
+      <FileVersion>2.2.0</FileVersion>
+      <OutputType>Exe</OutputType>
+      <TargetFramework>net9.0</TargetFramework>
+      <PublishSingleFile>true</PublishSingleFile>
+      <SelfContained>true</SelfContained>
+      <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+      <ImplicitUsings>enable</ImplicitUsings>
+      <Nullable>enable</Nullable>
+      <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+      <ProjectReference Include="..\..\tingen-lieutenant\src\TingenLieutenant.csproj" />
+  </ItemGroup>
+
+
+  <PropertyGroup><!-- <IncludeAllContentForSelfExtract>true</IncludeAllContentForSelfExtract> -->
+
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <DocumentationFile>..\..\tingen-documentation\sfhb\generated-xml\tingen-dev-deploy.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
