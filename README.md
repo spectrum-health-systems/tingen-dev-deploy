@@ -4,10 +4,9 @@
 
   ![logo](./.github/image/logo/tngndvdp-320x420.png)
 
-  ![Release](https://img.shields.io/badge/release-v2.2-teal)&nbsp;&nbsp;
+  ![Release](https://img.shields.io/badge/version-2.2-teal)&nbsp;&nbsp;
   ![License](https://img.shields.io/badge/license-apache-blue)
  
-  
 </div>
 
 # About DevDeploy
